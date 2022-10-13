@@ -9,14 +9,11 @@ public class ArrayList {
 
 //		List<String> list =  (List<String>) new ArrayList();
 		List<String> list = Arrays.asList("Rakesh","madahv");
-//		list.add("Rakesh");
-//		list.add("Manish");
-//		list.add("akash");
-//		list.add("madhav");
+
 		
-		System.out.println(list);	
-		
-	//	list.forEach((key)-> System.out.println(list));
+		for(String s: list) {
+			System.out.println(s);
+		}
 		
 		
 		
